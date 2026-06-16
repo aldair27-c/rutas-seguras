@@ -1,95 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle Ruta</title>
-
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
-
 <body>
-
     <header>
         <nav>
-
             <h2>Rutas Seguras Kids</h2>
-
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="rutas.html">Rutas</a></li>
             </ul>
-
         </nav>
     </header>
-
     <main>
-
         <section id="route-info">
-
             <h1>Información de la Ruta</h1>
-
-            <article id="route-details">
-
-                <!-- JS cargará la ruta -->
-
-            </article>
-
+            <article id="route-details"></article>
         </section>
-
         <section id="add-student">
-
             <h2>Agregar Estudiante</h2>
-
             <form id="student-form">
-
-                <label for="student-name">
-                    Nombre
-                </label>
-
-                <input
-                    type="text"
-                    id="student-name"
-                    required>
-
-                <label for="student-age">
-                    Edad
-                </label>
-
-                <input
-                    type="number"
-                    id="student-age"
-                    required>
-
-                <button type="submit">
-                    Agregar Estudiante
-                </button>
-
+                <label for="student-name">Nombre</label>
+                <input type="text" id="student-name" placeholder="Ej: María Gómez" required>
+                
+                <label for="student-age">Edad</label>
+                <input type="number" id="student-age" min="3" max="18" placeholder="Ej: 8" required>
+                
+                <button type="submit">Agregar Estudiante</button>
             </form>
-
         </section>
-
         <section id="students-section">
-
             <h2>Estudiantes Asignados</h2>
-
-            <div id="students-container">
-
-                <!-- JS insertará estudiantes -->
-
-            </div>
-
+            <div id="students-container"></div>
         </section>
-
     </main>
-
     <footer>
         <p>© 2026 Rutas Seguras Kids</p>
     </footer>
-
-    <script src="./js/app.js"></script>
-
+    <script src="./js/route-card.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
-
 </html>
