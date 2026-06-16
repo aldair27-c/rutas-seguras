@@ -54,7 +54,6 @@ rutas-seguras-kids/
 ## 🚀 Instrucciones de Ejecución
 
 ### 1️⃣ Clonar o descargar el proyecto
-```bash
 git clone https://github.com/tu-usuario/rutas-seguras-kids.git
 cd rutas-seguras-kids
 
@@ -73,13 +72,13 @@ Opción 1: Abre index.html directamente en tu navegador
 Opción 2: Usa un servidor local (Live Server de VS Code)
 
 🔹 Página de Inicio
-![alt text](image.png)
+![alt text](./image.png)
 
 🔹 Gestión de Rutas - Formulario
-![alt text](image-1.png)
+![alt text](./mage-1.png)
 
 🔹 Detalle de Ruta
-![alt text](image-2.png)
+![alt text](./image-2.png)
 
 🎯 Funcionalidades Principales
 ✅ Gestión de Rutas
