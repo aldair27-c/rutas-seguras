@@ -19,29 +19,7 @@ function cargarDatos() {
         rutas = JSON.parse(datosGuardados);
     } else {
         // DATOS DE EJEMPLO
-        rutas = [
-            {
-                id: '1',
-                nombre: 'Ruta Norte',
-                conductor: 'Juan Pérez',
-                hora: '07:00',
-                ciudad: 'Bogotá',
-                estudiantes: [
-                    { id: 's1', nombre: 'María Gómez', edad: 8 },
-                    { id: 's2', nombre: 'Carlos López', edad: 10 }
-                ]
-            },
-            {
-                id: '2',
-                nombre: 'Ruta Sur',
-                conductor: 'Ana Martínez',
-                hora: '07:30',
-                ciudad: 'Medellín',
-                estudiantes: [
-                    { id: 's3', nombre: 'Laura Torres', edad: 7 }
-                ]
-            }
-        ];
+        rutas = [];
         guardarDatos();
     }
 }
